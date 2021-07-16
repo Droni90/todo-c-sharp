@@ -1,13 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Orleans.Runtime.Messaging;
-using System;
 using System.Collections.Generic;
-using System.Data.Entity.Core;
 using System.Linq;
-using System.Net;
 using System.Threading.Tasks;
-using TodoApp.Models;
+using TodoApp.Data.Models;
+using TodoApp.Models.Models;
 using TodoApp.ViewModels;
 
 namespace TodoApp.Controllers

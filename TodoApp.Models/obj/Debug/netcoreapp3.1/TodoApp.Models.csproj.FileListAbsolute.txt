@@ -1,0 +1,9 @@
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Models\bin\Debug\netcoreapp3.1\TodoApp.Models.deps.json
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Models\bin\Debug\netcoreapp3.1\TodoApp.Models.dll
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Models\bin\Debug\netcoreapp3.1\TodoApp.Models.pdb
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Models\obj\Debug\netcoreapp3.1\TodoApp.Models.csproj.AssemblyReference.cache
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Models\obj\Debug\netcoreapp3.1\TodoApp.Models.AssemblyInfoInputs.cache
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Models\obj\Debug\netcoreapp3.1\TodoApp.Models.AssemblyInfo.cs
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Models\obj\Debug\netcoreapp3.1\TodoApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Models\obj\Debug\netcoreapp3.1\TodoApp.Models.dll
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Models\obj\Debug\netcoreapp3.1\TodoApp.Models.pdb

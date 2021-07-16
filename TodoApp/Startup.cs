@@ -4,9 +4,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-using TodoApp.Models;
-using TodoApp.Interfaces;
-using TodoApp.Repositories;
+using TodoApp.Data.Models;
+using TodoApp.Data.Interfaces;
+using TodoApp.Data.Repositories;
 
 namespace TodoApp
 {

@@ -4,8 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TodoApp.Models.Models;
 
-namespace TodoApp.Models
+namespace TodoApp.Data.Models
 {
     public class TodoGroupContext : DbContext
     {

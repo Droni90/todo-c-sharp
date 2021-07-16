@@ -3,19 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TodoApp.Models
+namespace TodoApp.Models.Models
 {
     public class TodoGroup
     {
-        //protected TodoGroup()
-        //{ }
-
-        //public TodoGroup(string groupName)
-        //{
-        //    TodoItems = new List<TodoItem>();
-        //    GroupName = groupName;
-        //}
-
+        
         public TodoGroup()
         {
             TodoItems = new List<TodoItem>();

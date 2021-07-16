@@ -1,11 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using TodoApp.Models;
+using TodoApp.Models.Models;
 
-namespace TodoApp.Interfaces
+namespace TodoApp.Data.Interfaces
 {
     public interface ITodoRepository
     {

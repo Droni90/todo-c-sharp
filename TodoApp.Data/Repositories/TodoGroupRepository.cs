@@ -1,14 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System;
+﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
 using System.Threading.Tasks;
-using System.Web.Http;
-using TodoApp.ViewModels;
+using TodoApp.Models.Models;
 
-namespace TodoApp.Models
+namespace TodoApp.Data.Models
 {
     public class TodoGroupRepository : ITodoGroupRepository
     {
@@ -33,6 +29,7 @@ namespace TodoApp.Models
         public async Task<TodoGroup> PostGroup(TodoGroup model)
         {
             var data = new TodoGroup();
+            data.GroupName = model.GroupName;
             _context.TodoGroup.Add(data);
             await _context.SaveChangesAsync();
             return data;

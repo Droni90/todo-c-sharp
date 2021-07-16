@@ -75,8 +75,8 @@ C:\Users\Developer\source\repos\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\runtimes
 C:\Users\Developer\source\repos\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\Developer\source\repos\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Developer\source\repos\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Developer\source\repos\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
-C:\Users\Developer\source\repos\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\System.Web.Http.dll
-C:\Users\Developer\source\repos\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Developer\source\repos\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\TodoApp.Data.dll
 C:\Users\Developer\source\repos\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\TodoApp.Data.pdb
+C:\Users\Developer\source\repos\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\TodoApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Developer\source\repos\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\TodoApp.Models.dll
+C:\Users\Developer\source\repos\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\TodoApp.Models.pdb
