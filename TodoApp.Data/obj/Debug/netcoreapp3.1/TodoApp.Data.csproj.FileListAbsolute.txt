@@ -1,0 +1,8 @@
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Data\bin\Debug\netcoreapp3.1\TodoApp.Data.deps.json
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Data\bin\Debug\netcoreapp3.1\TodoApp.Data.dll
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Data\bin\Debug\netcoreapp3.1\TodoApp.Data.pdb
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Data\obj\Debug\netcoreapp3.1\TodoApp.Data.AssemblyInfoInputs.cache
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Data\obj\Debug\netcoreapp3.1\TodoApp.Data.AssemblyInfo.cs
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Data\obj\Debug\netcoreapp3.1\TodoApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Data\obj\Debug\netcoreapp3.1\TodoApp.Data.dll
+C:\Users\Developer\source\repos\TodoApp\TodoApp.Data\obj\Debug\netcoreapp3.1\TodoApp.Data.pdb
