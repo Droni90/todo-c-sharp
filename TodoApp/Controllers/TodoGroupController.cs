@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TodoApp.Data.Models;
+using TodoApp.Data.Contracts;
 using TodoApp.Models.Models;
 using TodoApp.ViewModels;
 
@@ -65,6 +65,20 @@ namespace TodoApp.Controllers
             var model = MapToModel(data);
             return model;
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutColor([FromRoute] int id, [FromBody] ColorVM color)
+        {
+            var data = await _groups.PutColor(id, color.Color);
+
+            if (data == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(data);
+        }
+
         private TodoGroupVM MapToModel(TodoGroup entity)
         {
             var model = new TodoGroupVM
@@ -73,6 +87,7 @@ namespace TodoApp.Controllers
                 GroupName = entity.GroupName,
                 TotalCount = entity.TodoItems.Count(),
                 CompletedCount = entity.TodoItems.Count(x => x.IsCompleted),
+                Color = entity.Color
             };
             return model;
         }

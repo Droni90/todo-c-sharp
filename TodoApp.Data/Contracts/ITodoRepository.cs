@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using TodoApp.Models.Models;
 
-namespace TodoApp.Data.Interfaces
+namespace TodoApp.Data.Contracts
 {
     public interface ITodoRepository
     {

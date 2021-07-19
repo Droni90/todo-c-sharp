@@ -2661,6 +2661,7 @@
           "Microsoft.EntityFrameworkCore": "5.0.8",
           "Microsoft.EntityFrameworkCore.Proxies": "5.0.8",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7",
           "TodoApp.Models": "1.0.0"
         },
         "compile": {
@@ -8791,7 +8792,6 @@
     ".NETCoreApp,Version=v3.1": [
       "EntityFramework >= 6.4.4",
       "Microsoft.EntityFrameworkCore.InMemory >= 5.0.7",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.7",
       "Microsoft.Orleans.Core >= 3.4.3",
       "TodoApp.Data >= 1.0.0",
       "TodoApp.Models >= 1.0.0"
@@ -8848,10 +8848,6 @@
             "version": "[6.4.4, )"
           },
           "Microsoft.EntityFrameworkCore.InMemory": {
-            "target": "Package",
-            "version": "[5.0.7, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[5.0.7, )"
           },

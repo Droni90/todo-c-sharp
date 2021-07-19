@@ -33,7 +33,6 @@
         "dependencies": {
           "EntityFramework": "6.4.4",
           "Microsoft.EntityFrameworkCore.InMemory": "5.0.7",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7",
           "Microsoft.Orleans.Core": "3.4.3",
           "TodoApp.Data": "1.0.0",
           "TodoApp.Models": "1.0.0",
@@ -2063,6 +2062,7 @@
           "Microsoft.EntityFrameworkCore": "5.0.8",
           "Microsoft.EntityFrameworkCore.Proxies": "5.0.8",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7",
           "TodoApp.Models": "1.0.0"
         },
         "runtime": {

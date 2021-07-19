@@ -4,9 +4,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-using TodoApp.Data.Models;
-using TodoApp.Data.Interfaces;
-using TodoApp.Data.Repositories;
 
 namespace TodoApp
 {
@@ -23,9 +20,7 @@ namespace TodoApp
         public void ConfigureServices(IServiceCollection services)
         {
             var connection = Configuration.GetConnectionString("TodoDatabase");
-            services.AddDbContext<TodoGroupContext>(opt => opt.UseSqlServer(connection));
-            services.AddScoped<ITodoGroupRepository, TodoGroupRepository>();
-            services.AddScoped<ITodoRepository, TodoRepository>();
+            Data.ContainerConfiguration.ConfigureServices(services, connection);
             services.AddControllers();
         }
 

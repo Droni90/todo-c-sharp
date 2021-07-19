@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace TodoApp.ViewModels
+﻿namespace TodoApp.ViewModels
 {
     public class TodoGroupVM
     {
@@ -11,5 +6,6 @@ namespace TodoApp.ViewModels
         public string GroupName { get; set; }
         public int TotalCount { get; internal set; }
         public int CompletedCount { get; internal set; }
+        public string Color { get; set; }
     }
 }

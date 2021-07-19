@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TodoApp.Data.Contracts;
+using TodoApp.Data.Models;
 using TodoApp.Models.Models;
 
-namespace TodoApp.Data.Models
+namespace TodoApp.Data.Repositories
 {
     public class TodoGroupRepository : ITodoGroupRepository
     {
@@ -41,8 +43,16 @@ namespace TodoApp.Data.Models
             data.IsDeleted = true;
             await _context.SaveChangesAsync();
             return data;
-        } 
+        }
 
-        
+        public async Task<TodoGroup> PutColor(int id, string color)
+        {
+            var data = _context.TodoGroup.Where(x => x.Id == id).FirstOrDefault();
+            data.Color = color;
+            _context.Entry(data).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return data;
+        }
+
     }
 }

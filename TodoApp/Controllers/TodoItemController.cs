@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TodoApp.Data.Interfaces;
-using TodoApp.Data.Models;
+using TodoApp.Data.Contracts;
 using TodoApp.Models.Models;
 using TodoApp.ViewModels;
 
